@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "mining": {
+      "name": "Майнинг"
+    },
+    "cryptocurrency": {
+      "name": "Криптовалюта"
+    },
+    "transaction": {
+      "name": "Транзакция"
+    },
+
+    "bitcoin": {
+      "name": "Bitcoin"
+    },
+    "bip": {
+      "name": "BIP"
+    },
+
+    "asic": {
+      "name": "ASIC "
+    }
+  },
+  "edges": [
+    {
+      "source": "asic",
+      "target": "mining"
+    },
+    {
+      "source": "bitcoin",
+      "target": "cryptocurrency"
+    },
+    {
+      "source": "transaction",
+      "target": "cryptocurrency"
+    },
+    {
+      "source": "bip",
+      "target": "bitcoin"
+    }
+  ]
+}
